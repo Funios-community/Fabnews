@@ -9,14 +9,23 @@
 /* Begin PBXBuildFile section */
 		0009D99A28BF928000DD6678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009D99928BF928000DD6678 /* AppDelegate.swift */; };
 		0009D99C28BF928000DD6678 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009D99B28BF928000DD6678 /* SceneDelegate.swift */; };
-		0009D99E28BF928000DD6678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009D99D28BF928000DD6678 /* ViewController.swift */; };
-		0009D9A128BF928000DD6678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0009D99F28BF928000DD6678 /* Main.storyboard */; };
 		0009D9A428BF928000DD6678 /* Fabnews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0009D9A228BF928000DD6678 /* Fabnews.xcdatamodeld */; };
 		0009D9A628BF928200DD6678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0009D9A528BF928200DD6678 /* Assets.xcassets */; };
 		0009D9A928BF928200DD6678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0009D9A728BF928200DD6678 /* LaunchScreen.storyboard */; };
 		0009D9B428BF928200DD6678 /* FabnewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009D9B328BF928200DD6678 /* FabnewsTests.swift */; };
 		0009D9BE28BF928200DD6678 /* FabnewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009D9BD28BF928200DD6678 /* FabnewsUITests.swift */; };
 		0009D9C028BF928200DD6678 /* FabnewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009D9BF28BF928200DD6678 /* FabnewsUITestsLaunchTests.swift */; };
+		00EF83BD28CF661000A773AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EF83BB28CF661000A773AB /* LoginViewController.swift */; };
+		00EF83BE28CF661000A773AB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EF83BC28CF661000A773AB /* LoginViewController.xib */; };
+		00EF83C028CF67B700A773AB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EF83BF28CF67B700A773AB /* LoginViewModel.swift */; };
+		00EF83C228CF67BF00A773AB /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EF83C128CF67BF00A773AB /* LoginModel.swift */; };
+		00EF83C728CF6D8A00A773AB /* ListNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EF83C528CF6D8A00A773AB /* ListNewsViewController.swift */; };
+		00EF83C828CF6D8A00A773AB /* ListNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EF83C628CF6D8A00A773AB /* ListNewsViewController.xib */; };
+		00EF83CB28CF6E6100A773AB /* DetailNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EF83C928CF6E6100A773AB /* DetailNewsViewController.swift */; };
+		00EF83CC28CF6E6100A773AB /* DetailNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EF83CA28CF6E6100A773AB /* DetailNewsViewController.xib */; };
+		3CB964A843D288D1D0DA8D39 /* Pods_FabnewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A6D4E1A04B7C290BB89BA2 /* Pods_FabnewsTests.framework */; };
+		822289DFFF7BB1C77D00D6E5 /* Pods_Fabnews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F314153F9A2FA7778F7882 /* Pods_Fabnews.framework */; };
+		F56CC3E5882F44FA04618C4E /* Pods_Fabnews_FabnewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7D59DA7362BEB5B66DDC0F /* Pods_Fabnews_FabnewsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +49,6 @@
 		0009D99628BF928000DD6678 /* Fabnews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabnews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0009D99928BF928000DD6678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0009D99B28BF928000DD6678 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0009D99D28BF928000DD6678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0009D9A028BF928000DD6678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0009D9A328BF928000DD6678 /* Fabnews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fabnews.xcdatamodel; sourceTree = "<group>"; };
 		0009D9A528BF928200DD6678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0009D9A828BF928200DD6678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,23 @@
 		0009D9B928BF928200DD6678 /* FabnewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabnewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0009D9BD28BF928200DD6678 /* FabnewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabnewsUITests.swift; sourceTree = "<group>"; };
 		0009D9BF28BF928200DD6678 /* FabnewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabnewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00EF83BB28CF661000A773AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00EF83BC28CF661000A773AB /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		00EF83BF28CF67B700A773AB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		00EF83C128CF67BF00A773AB /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		00EF83C528CF6D8A00A773AB /* ListNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNewsViewController.swift; sourceTree = "<group>"; };
+		00EF83C628CF6D8A00A773AB /* ListNewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListNewsViewController.xib; sourceTree = "<group>"; };
+		00EF83C928CF6E6100A773AB /* DetailNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsViewController.swift; sourceTree = "<group>"; };
+		00EF83CA28CF6E6100A773AB /* DetailNewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailNewsViewController.xib; sourceTree = "<group>"; };
+		017861F2DA2CB349F54AE01F /* Pods-FabnewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabnewsTests.debug.xcconfig"; path = "Target Support Files/Pods-FabnewsTests/Pods-FabnewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C1128F0B2D8FDBBD532B7F1 /* Pods-Fabnews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabnews.release.xcconfig"; path = "Target Support Files/Pods-Fabnews/Pods-Fabnews.release.xcconfig"; sourceTree = "<group>"; };
+		1E7BFE14B06129809E319D7B /* Pods-Fabnews-FabnewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabnews-FabnewsUITests.release.xcconfig"; path = "Target Support Files/Pods-Fabnews-FabnewsUITests/Pods-Fabnews-FabnewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B796786F6E1194F45CF1669 /* Pods-Fabnews-FabnewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabnews-FabnewsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fabnews-FabnewsUITests/Pods-Fabnews-FabnewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F7D59DA7362BEB5B66DDC0F /* Pods_Fabnews_FabnewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fabnews_FabnewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A6D4E1A04B7C290BB89BA2 /* Pods_FabnewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FabnewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		793259796995922F67950163 /* Pods-Fabnews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabnews.debug.xcconfig"; path = "Target Support Files/Pods-Fabnews/Pods-Fabnews.debug.xcconfig"; sourceTree = "<group>"; };
+		793F8041A18475E3D5676FF5 /* Pods-FabnewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabnewsTests.release.xcconfig"; path = "Target Support Files/Pods-FabnewsTests/Pods-FabnewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0F314153F9A2FA7778F7882 /* Pods_Fabnews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fabnews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822289DFFF7BB1C77D00D6E5 /* Pods_Fabnews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB964A843D288D1D0DA8D39 /* Pods_FabnewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56CC3E5882F44FA04618C4E /* Pods_Fabnews_FabnewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +112,8 @@
 				0009D9B228BF928200DD6678 /* FabnewsTests */,
 				0009D9BC28BF928200DD6678 /* FabnewsUITests */,
 				0009D99728BF928000DD6678 /* Products */,
+				7C0C0996E9C45DEEC2FF1A3D /* Pods */,
+				A01BCE3A8A8E03B101AE4C69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +130,9 @@
 		0009D99828BF928000DD6678 /* Fabnews */ = {
 			isa = PBXGroup;
 			children = (
-				0009D99928BF928000DD6678 /* AppDelegate.swift */,
-				0009D99B28BF928000DD6678 /* SceneDelegate.swift */,
-				0009D99D28BF928000DD6678 /* ViewController.swift */,
-				0009D99F28BF928000DD6678 /* Main.storyboard */,
-				0009D9A528BF928200DD6678 /* Assets.xcassets */,
-				0009D9A728BF928200DD6678 /* LaunchScreen.storyboard */,
+				00EF83B928CF65E000A773AB /* Screen */,
+				00EF83B828CF65C000A773AB /* Core */,
+				00EF83B728CF65A800A773AB /* Assets */,
 				0009D9AA28BF928200DD6678 /* Info.plist */,
 				0009D9A228BF928000DD6678 /* Fabnews.xcdatamodeld */,
 			);
@@ -130,6 +156,86 @@
 			path = FabnewsUITests;
 			sourceTree = "<group>";
 		};
+		00EF83B728CF65A800A773AB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0009D9A728BF928200DD6678 /* LaunchScreen.storyboard */,
+				0009D9A528BF928200DD6678 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		00EF83B828CF65C000A773AB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0009D99B28BF928000DD6678 /* SceneDelegate.swift */,
+				0009D99928BF928000DD6678 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		00EF83B928CF65E000A773AB /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				00EF83C428CF6D7700A773AB /* DetailNews */,
+				00EF83C328CF6D7200A773AB /* ListNews */,
+				00EF83BA28CF65E800A773AB /* Login */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		00EF83BA28CF65E800A773AB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				00EF83BB28CF661000A773AB /* LoginViewController.swift */,
+				00EF83BC28CF661000A773AB /* LoginViewController.xib */,
+				00EF83BF28CF67B700A773AB /* LoginViewModel.swift */,
+				00EF83C128CF67BF00A773AB /* LoginModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		00EF83C328CF6D7200A773AB /* ListNews */ = {
+			isa = PBXGroup;
+			children = (
+				00EF83C528CF6D8A00A773AB /* ListNewsViewController.swift */,
+				00EF83C628CF6D8A00A773AB /* ListNewsViewController.xib */,
+			);
+			path = ListNews;
+			sourceTree = "<group>";
+		};
+		00EF83C428CF6D7700A773AB /* DetailNews */ = {
+			isa = PBXGroup;
+			children = (
+				00EF83C928CF6E6100A773AB /* DetailNewsViewController.swift */,
+				00EF83CA28CF6E6100A773AB /* DetailNewsViewController.xib */,
+			);
+			path = DetailNews;
+			sourceTree = "<group>";
+		};
+		7C0C0996E9C45DEEC2FF1A3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				793259796995922F67950163 /* Pods-Fabnews.debug.xcconfig */,
+				1C1128F0B2D8FDBBD532B7F1 /* Pods-Fabnews.release.xcconfig */,
+				2B796786F6E1194F45CF1669 /* Pods-Fabnews-FabnewsUITests.debug.xcconfig */,
+				1E7BFE14B06129809E319D7B /* Pods-Fabnews-FabnewsUITests.release.xcconfig */,
+				017861F2DA2CB349F54AE01F /* Pods-FabnewsTests.debug.xcconfig */,
+				793F8041A18475E3D5676FF5 /* Pods-FabnewsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A01BCE3A8A8E03B101AE4C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F314153F9A2FA7778F7882 /* Pods_Fabnews.framework */,
+				5F7D59DA7362BEB5B66DDC0F /* Pods_Fabnews_FabnewsUITests.framework */,
+				72A6D4E1A04B7C290BB89BA2 /* Pods_FabnewsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0009D9C328BF928200DD6678 /* Build configuration list for PBXNativeTarget "Fabnews" */;
 			buildPhases = (
+				CB0985EDD0A19C0803F6A79D /* [CP] Check Pods Manifest.lock */,
 				0009D99228BF928000DD6678 /* Sources */,
 				0009D99328BF928000DD6678 /* Frameworks */,
 				0009D99428BF928000DD6678 /* Resources */,
+				24B2C7C4B203BB90C713C25E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0009D9C628BF928200DD6678 /* Build configuration list for PBXNativeTarget "FabnewsTests" */;
 			buildPhases = (
+				75A662A05531115B64C391C3 /* [CP] Check Pods Manifest.lock */,
 				0009D9AB28BF928200DD6678 /* Sources */,
 				0009D9AC28BF928200DD6678 /* Frameworks */,
 				0009D9AD28BF928200DD6678 /* Resources */,
@@ -172,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0009D9C928BF928200DD6678 /* Build configuration list for PBXNativeTarget "FabnewsUITests" */;
 			buildPhases = (
+				655902D080DC6DEF641DD40B /* [CP] Check Pods Manifest.lock */,
 				0009D9B528BF928200DD6678 /* Sources */,
 				0009D9B628BF928200DD6678 /* Frameworks */,
 				0009D9B728BF928200DD6678 /* Resources */,
+				B915D1868E4CB66E299DB895 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +347,9 @@
 			files = (
 				0009D9A928BF928200DD6678 /* LaunchScreen.storyboard in Resources */,
 				0009D9A628BF928200DD6678 /* Assets.xcassets in Resources */,
-				0009D9A128BF928000DD6678 /* Main.storyboard in Resources */,
+				00EF83BE28CF661000A773AB /* LoginViewController.xib in Resources */,
+				00EF83C828CF6D8A00A773AB /* ListNewsViewController.xib in Resources */,
+				00EF83CC28CF6E6100A773AB /* DetailNewsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,14 +369,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24B2C7C4B203BB90C713C25E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fabnews/Pods-Fabnews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fabnews/Pods-Fabnews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fabnews/Pods-Fabnews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		655902D080DC6DEF641DD40B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fabnews-FabnewsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A662A05531115B64C391C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FabnewsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B915D1868E4CB66E299DB895 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fabnews-FabnewsUITests/Pods-Fabnews-FabnewsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fabnews-FabnewsUITests/Pods-Fabnews-FabnewsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fabnews-FabnewsUITests/Pods-Fabnews-FabnewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0985EDD0A19C0803F6A79D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fabnews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0009D99228BF928000DD6678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0009D99E28BF928000DD6678 /* ViewController.swift in Sources */,
+				00EF83CB28CF6E6100A773AB /* DetailNewsViewController.swift in Sources */,
+				00EF83BD28CF661000A773AB /* LoginViewController.swift in Sources */,
+				00EF83C228CF67BF00A773AB /* LoginModel.swift in Sources */,
+				00EF83C728CF6D8A00A773AB /* ListNewsViewController.swift in Sources */,
 				0009D99A28BF928000DD6678 /* AppDelegate.swift in Sources */,
 				0009D9A428BF928000DD6678 /* Fabnews.xcdatamodeld in Sources */,
+				00EF83C028CF67B700A773AB /* LoginViewModel.swift in Sources */,
 				0009D99C28BF928000DD6678 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +521,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0009D99F28BF928000DD6678 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0009D9A028BF928000DD6678 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0009D9A728BF928200DD6678 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +648,7 @@
 		};
 		0009D9C428BF928200DD6678 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793259796995922F67950163 /* Pods-Fabnews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +659,6 @@
 				INFOPLIST_FILE = Fabnews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -465,6 +677,7 @@
 		};
 		0009D9C528BF928200DD6678 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1128F0B2D8FDBBD532B7F1 /* Pods-Fabnews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,7 +688,6 @@
 				INFOPLIST_FILE = Fabnews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -494,6 +706,7 @@
 		};
 		0009D9C728BF928200DD6678 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017861F2DA2CB349F54AE01F /* Pods-FabnewsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +727,7 @@
 		};
 		0009D9C828BF928200DD6678 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793F8041A18475E3D5676FF5 /* Pods-FabnewsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +748,7 @@
 		};
 		0009D9CA28BF928200DD6678 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B796786F6E1194F45CF1669 /* Pods-Fabnews-FabnewsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +767,7 @@
 		};
 		0009D9CB28BF928200DD6678 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7BFE14B06129809E319D7B /* Pods-Fabnews-FabnewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
