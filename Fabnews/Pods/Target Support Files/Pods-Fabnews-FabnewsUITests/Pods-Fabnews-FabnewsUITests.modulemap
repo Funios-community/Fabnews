@@ -1,0 +1,6 @@
+framework module Pods_Fabnews_FabnewsUITests {
+  umbrella header "Pods-Fabnews-FabnewsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
