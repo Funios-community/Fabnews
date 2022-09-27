@@ -23,6 +23,11 @@
 		00EF83C828CF6D8A00A773AB /* ListNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EF83C628CF6D8A00A773AB /* ListNewsViewController.xib */; };
 		00EF83CB28CF6E6100A773AB /* DetailNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EF83C928CF6E6100A773AB /* DetailNewsViewController.swift */; };
 		00EF83CC28CF6E6100A773AB /* DetailNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EF83CA28CF6E6100A773AB /* DetailNewsViewController.xib */; };
+		093524B728E2BA1E003664CC /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093524B628E2BA1E003664CC /* News.swift */; };
+		093524B928E2BB7A003664CC /* ModeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093524B828E2BB7A003664CC /* ModeData.swift */; };
+		093524BF28E2C314003664CC /* News.json in Resources */ = {isa = PBXBuildFile; fileRef = 093524BE28E2C314003664CC /* News.json */; };
+		093524C128E2C47D003664CC /* ListNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093524C028E2C47D003664CC /* ListNews.swift */; };
+		0939E28628E26ED9006254D2 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0939E28528E26ED9006254D2 /* ImageCard.swift */; };
 		3CB964A843D288D1D0DA8D39 /* Pods_FabnewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A6D4E1A04B7C290BB89BA2 /* Pods_FabnewsTests.framework */; };
 		822289DFFF7BB1C77D00D6E5 /* Pods_Fabnews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F314153F9A2FA7778F7882 /* Pods_Fabnews.framework */; };
 		F56CC3E5882F44FA04618C4E /* Pods_Fabnews_FabnewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7D59DA7362BEB5B66DDC0F /* Pods_Fabnews_FabnewsUITests.framework */; };
@@ -67,6 +72,11 @@
 		00EF83C928CF6E6100A773AB /* DetailNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsViewController.swift; sourceTree = "<group>"; };
 		00EF83CA28CF6E6100A773AB /* DetailNewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailNewsViewController.xib; sourceTree = "<group>"; };
 		017861F2DA2CB349F54AE01F /* Pods-FabnewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabnewsTests.debug.xcconfig"; path = "Target Support Files/Pods-FabnewsTests/Pods-FabnewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		093524B628E2BA1E003664CC /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		093524B828E2BB7A003664CC /* ModeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeData.swift; sourceTree = "<group>"; };
+		093524BE28E2C314003664CC /* News.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = News.json; sourceTree = "<group>"; };
+		093524C028E2C47D003664CC /* ListNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNews.swift; sourceTree = "<group>"; };
+		0939E28528E26ED9006254D2 /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
 		1C1128F0B2D8FDBBD532B7F1 /* Pods-Fabnews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabnews.release.xcconfig"; path = "Target Support Files/Pods-Fabnews/Pods-Fabnews.release.xcconfig"; sourceTree = "<group>"; };
 		1E7BFE14B06129809E319D7B /* Pods-Fabnews-FabnewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabnews-FabnewsUITests.release.xcconfig"; path = "Target Support Files/Pods-Fabnews-FabnewsUITests/Pods-Fabnews-FabnewsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2B796786F6E1194F45CF1669 /* Pods-Fabnews-FabnewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabnews-FabnewsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fabnews-FabnewsUITests/Pods-Fabnews-FabnewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +140,8 @@
 		0009D99828BF928000DD6678 /* Fabnews */ = {
 			isa = PBXGroup;
 			children = (
+				093524BB28E2C05C003664CC /* Resources */,
+				093524B528E2B9EE003664CC /* Model */,
 				00EF83B928CF65E000A773AB /* Screen */,
 				00EF83B828CF65C000A773AB /* Core */,
 				00EF83B728CF65A800A773AB /* Assets */,
@@ -177,6 +189,7 @@
 		00EF83B928CF65E000A773AB /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				0939E28428E26D7F006254D2 /* Common */,
 				00EF83C428CF6D7700A773AB /* DetailNews */,
 				00EF83C328CF6D7200A773AB /* ListNews */,
 				00EF83BA28CF65E800A773AB /* Login */,
@@ -200,6 +213,7 @@
 			children = (
 				00EF83C528CF6D8A00A773AB /* ListNewsViewController.swift */,
 				00EF83C628CF6D8A00A773AB /* ListNewsViewController.xib */,
+				093524C028E2C47D003664CC /* ListNews.swift */,
 			);
 			path = ListNews;
 			sourceTree = "<group>";
@@ -211,6 +225,31 @@
 				00EF83CA28CF6E6100A773AB /* DetailNewsViewController.xib */,
 			);
 			path = DetailNews;
+			sourceTree = "<group>";
+		};
+		093524B528E2B9EE003664CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				093524B628E2BA1E003664CC /* News.swift */,
+				093524B828E2BB7A003664CC /* ModeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		093524BB28E2C05C003664CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				093524BE28E2C314003664CC /* News.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0939E28428E26D7F006254D2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0939E28528E26ED9006254D2 /* ImageCard.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		7C0C0996E9C45DEEC2FF1A3D /* Pods */ = {
@@ -349,6 +388,7 @@
 				0009D9A628BF928200DD6678 /* Assets.xcassets in Resources */,
 				00EF83BE28CF661000A773AB /* LoginViewController.xib in Resources */,
 				00EF83C828CF6D8A00A773AB /* ListNewsViewController.xib in Resources */,
+				093524BF28E2C314003664CC /* News.json in Resources */,
 				00EF83CC28CF6E6100A773AB /* DetailNewsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,12 +518,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				00EF83CB28CF6E6100A773AB /* DetailNewsViewController.swift in Sources */,
+				0939E28628E26ED9006254D2 /* ImageCard.swift in Sources */,
 				00EF83BD28CF661000A773AB /* LoginViewController.swift in Sources */,
 				00EF83C228CF67BF00A773AB /* LoginModel.swift in Sources */,
+				093524B928E2BB7A003664CC /* ModeData.swift in Sources */,
 				00EF83C728CF6D8A00A773AB /* ListNewsViewController.swift in Sources */,
+				093524C128E2C47D003664CC /* ListNews.swift in Sources */,
 				0009D99A28BF928000DD6678 /* AppDelegate.swift in Sources */,
 				0009D9A428BF928000DD6678 /* Fabnews.xcdatamodeld in Sources */,
 				00EF83C028CF67B700A773AB /* LoginViewModel.swift in Sources */,
+				093524B728E2BA1E003664CC /* News.swift in Sources */,
 				0009D99C28BF928000DD6678 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,9 +696,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8ZF225K998;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fabnews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -669,6 +714,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = funios.Fabnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -681,9 +727,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8ZF225K998;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fabnews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -698,6 +745,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = funios.Fabnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -710,14 +758,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A3ZG558H3C;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = funios.FabnewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -731,14 +780,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A3ZG558H3C;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = funios.FabnewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -751,13 +801,14 @@
 			baseConfigurationReference = 2B796786F6E1194F45CF1669 /* Pods-Fabnews-FabnewsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A3ZG558H3C;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = funios.FabnewsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -770,13 +821,14 @@
 			baseConfigurationReference = 1E7BFE14B06129809E319D7B /* Pods-Fabnews-FabnewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A3ZG558H3C;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = funios.FabnewsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
